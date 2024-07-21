@@ -17,6 +17,7 @@
                     {{ __('You are logged in!') }}
                 </div>
             </div>
+            @include('chat')
         </div>
     </div>
 </div>

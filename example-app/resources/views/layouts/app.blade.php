@@ -15,6 +15,7 @@
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    @vite(['themes\tailwind/css/app.css', 'themes\tailwind/js/app.js'], 'tailwind')
 </head>
 <body>
     <div id="app">
